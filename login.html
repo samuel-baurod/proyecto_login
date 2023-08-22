@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Iniciar sesión</title>
+    
+    <!-- Icono en la pestaña del navegador -->
+    <link rel="shortcut icon" href="/img/ico/logo_sgirpc_ico.ico" />
+    <!-- Importación de Bootstrap v5-->
+    <link rel="stylesheet" href="/css/bst/bootstrap.min.css">
+    
+    <!-- Importación de las hojas de estilos -->
+    <link rel="stylesheet" href="/css/login/login.css"">
+
+    <!-- Script de Bootstrap v5 -->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+    <div class="login-caja">
+      <img src="/img/logo_2.jpg" class="logo-login" alt="Logo">
+      <h1 class="titulo-caja">Inicio de sesión</h1>
+      
+      <div>
+        <!-- Input Usuario -->
+        <label for="nom_usu">Usuario</label>
+        <input type="text" id="nom_usu" placeholder="Ingrese usuario" required>
+        
+        <!-- Input Contraseña -->
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" placeholder="Ingrese contraseña" required>
+        
+        <input type="submit" value="Iniciar sesión" formaction="index.html">
+        <input type="submit" value="Continuar con Google" formaction="index.html">
+        
+        <a href="#">Recuperar contraseña</a><br>
+        <a href="#">Registrarse</a>
+        
+      </div>
+
+    </div>
+  </body>
+  
+</html>

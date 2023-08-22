@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Registro</title>
+    
+    <!-- Icono en la pestaña del navegador -->
+    <link rel="shortcut icon" href="/img/ico/logo_sgirpc_ico.ico" />
+    <!-- Importación de Bootstrap v5-->
+    <link rel="stylesheet" href="/css/bst/bootstrap.min.css">
+    
+    <!-- Importación de las hojas de estilos -->
+    <link rel="stylesheet" href="/css/registro/registro.css"">
+
+    <!-- Script de Bootstrap v5 -->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+
+    <!-- Inicia div de los inputs -->
+    <div class="login-caja vw-60">
+
+      <img src="/img/logo_2.jpg" class="logo-login" alt="Logo">
+      <h1 class="titulo-caja">Registro</h1>
+      
+      <p>Ingresa tus datos para continuar con tu registro.</p>
+
+      <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col align-self-center">
+                <!-- Input Nombre -->
+                <label for="lbl_nom">Nombre: </label>
+                <input type="text" id="lbl_nom" required>
+
+                <!-- Input Apellido -->
+                <label for="lbl_ape">Apellido: </label>
+                <input type="text" id="lbl_ape" required>
+
+                <!-- Input Usuario -->
+                <label for="lbl_usu">Usuario: </label>
+                <input type="text" id="lbl_usu" required>
+            </div>
+            
+            <div class="col align-self-center">
+                <!-- Input Correo Electrónico -->
+                <label for="lbl_email">Correo electrónico:</label>
+                <input type="email" id="lbl_email" required>
+
+                <!-- Input Contraseña -->
+                <label for="lbl_password">Contraseña:</label>
+                <input type="password" id="lbl_password" required>
+
+                <!-- Input Confirmar Contraseña -->
+                <label for="lbl_confirm_password">Confirmar contraseña:</label>
+                <input type="password" id="lbl_confirm_password" required>
+            </div>
+            
+        </div>
+        <input type="submit" id="btnRegistro" value="Registrarse" formaction="./index.html">
+      </div>
+
+    </div>
+  </body>
+  
+</html>

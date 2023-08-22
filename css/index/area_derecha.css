@@ -1,0 +1,33 @@
+.area-derecha {
+    position: relative;
+    width: 88%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#data-load
+{
+    position: relative;
+    width: 90% !important;
+    top: -50px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    -webkit-box-shadow: -15px 10px 5px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -15px 10px 5px -4px rgba(0,0,0,0.75);
+    box-shadow: -15px 10px 5px -4px rgba(0,0,0,0.75)
+}
+
+.table-hover {
+    cursor: pointer;
+}
+
+.table {
+    height: 90%;
+    width: 90%;
+    position: relative; 
+    margin: 0 auto;
+    
+}

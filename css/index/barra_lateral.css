@@ -1,0 +1,67 @@
+.barra-lateral {
+    position: relative;
+    background-color: #1B3B72;
+    width: 12%;
+    height: 100vh;
+    padding: 15px 10px 15px 10px;
+    color: #FFF
+}
+
+.contenedor-lateral {
+    text-align: center;
+}
+
+.img-barralateral {
+    margin: 0 auto;
+    display: block;
+    
+}
+
+.hr-bl-usu {
+    height: 1px !important;
+    background-color: #FFF !important;
+}
+
+.datos-usuario {
+    font-size: .8em ;
+}
+
+.opcion-barralateral {
+    position: relative;
+    cursor:pointer;
+    border-bottom: .5px solid #EB7F25;
+    text-align: left;
+    transition: all ease-in 300ms;
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 0.8em;
+}
+
+.opcion-barralateral-cs {
+    position: relative;
+    cursor:pointer;
+    border-bottom: .5px solid red;
+    text-align: left;
+    transition: all ease-in 300ms;
+    font-size: small;
+    font-weight: bold;
+    margin-top: 12em;
+}
+
+.opcion-barralateral:hover {
+    background-color: #8CA2B2;
+    border-bottom: 8px solid #EB7F25;
+}
+
+.opcion-barralateral-cs:hover {
+    background-color: #8CA2B2;
+    border-bottom: 8px solid red;
+    color: red;
+}
+
+.bi-opc, .bi-cs {
+    padding-left: 15px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
