@@ -4,12 +4,12 @@ body {
     background-size: cover;
     font-family: sans-serif;
     height: 100vh;
-    background-color: #F3F3F3;
+    background-color: #f3f3f3;
   }
 
-  .login-caja {
-    width: 680px;
-    height: 480px;
+  .registro-caja {
+    width: 480px;
+    height: auto;
     background: #FCF5F5;
     color: #6F6F6F;
     top: 50%;
@@ -19,13 +19,18 @@ body {
     box-sizing: border-box;
     padding: 50px 20px;
     border-radius: 10px;
+    -webkit-box-shadow: -15px 13px 3px 1px rgba(27,59,114,1);
+    -moz-box-shadow: -15px 13px 3px 1px rgba(27,59,114,1);
+    box-shadow: -15px 13px 3px 1px rgba(27,59,114,1);
+    border: black solid 1px;
   }
 
-  .login-caja .titulo-caja {
+  .registro-caja .titulo-caja {
     color: #1B3B72;
   }
+
   
-  .login-caja .logo-login {
+  .registro-caja .logo-registro {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -33,57 +38,52 @@ body {
     top: -50px;
     left: calc(50% - 50px);
   }
+
+  .logo-registro
+  {
+    position: absolute;
+    z-index: 1;
+    border: #1B3B72 solid 4px;
+  }
   
-  .login-caja p {
+  .registro-caja p {
     text-align: center;
   }
 
-  .login-caja h1 {
-    margin: 0;
-    padding: 0 0 20px;
+  .registro-caja h1 {
+    margin-top: 15px;
+    padding: 0 0 10px;
     text-align: center;
     font-size: 22px;
     font-weight: bold;
   }
   
-  .login-caja label {
+  .registro-caja label {
     margin: 0;
     padding: 0;
     font-weight: bold;
     display: block;
   }
   
-  .login-caja input {
+  .registro-caja input {
     width: 100%;
     margin-bottom: 20px;
   }
   
-  .login-caja input[type="text"], .login-caja input[type="password"], .login-caja input[type="email"] {
+  .registro-caja input[type="text"], .registro-caja input[type="password"], .registro-caja input[type="email"] {
     border: none;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid black;
     background: transparent;
     outline: none;
     height: 40px;
     color: #000;
     font-size: 16px;
+    transition: all ease-in 300ms;
   }
-  
-  /* .login-caja input[type="submit"] {
-    
-  } */
-  
-  .login-caja input[type="submit"]:hover {
-    cursor: pointer;
-    background: #EB7F25;
-    color: #000;
-  }
-  
-  .login-caja a {
-    text-decoration: none;
-    font-size: 12px;
-    line-height: 20px;
-    font-weight: bold;
-    color: darkgrey;
+
+  .registro-caja input[type="text"]:hover, .registro-caja input[type="password"]:hover, .registro-caja input[type="email"]:hover 
+  {
+    border-bottom: #1B3B72 3px solid;
   }
   
   #btnRegistro {
@@ -98,6 +98,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  #btnRegistro:hover {
+    cursor: pointer;
+    background: #EB7F25;
   }
 
 

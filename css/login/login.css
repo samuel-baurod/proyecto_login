@@ -9,7 +9,7 @@ body {
 
   .login-caja {
     width: 320px;
-    height: 480px;
+    height: auto;
     background: #FCF5F5;
     color: #6F6F6F;
     top: 50%;
@@ -17,8 +17,12 @@ body {
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
-    padding: 70px 30px;
-    border-radius: 3%;
+    padding: 50px 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: -15px 13px 3px 1px rgba(27,59,114,1);
+    -moz-box-shadow: -15px 13px 3px 1px rgba(27,59,114,1);
+    box-shadow: -15px 13px 3px 1px rgba(27,59,114,1);
+    border: black solid 1px;
   }
 
   .login-caja .titulo-caja {
@@ -33,10 +37,21 @@ body {
     top: -50px;
     left: calc(50% - 50px);
   }
+
+  .logo-login
+  {
+    position: absolute;
+    z-index: 1;
+    border: #1B3B72 solid 4px;
+  }
   
+  .login-caja p {
+    text-align: center;
+  }
+
   .login-caja h1 {
-    margin: 0;
-    padding: 0 0 20px;
+    margin-top: 15px;
+    padding: 0 0 10px;
     text-align: center;
     font-size: 22px;
     font-weight: bold;
@@ -62,35 +77,49 @@ body {
     height: 40px;
     color: #000;
     font-size: 16px;
+    transition: all ease-in 300ms;
   }
-  
-  .login-caja input[type="submit"] {
+
+  .login-caja input[type="text"]:hover, .login-caja input[type="password"]:hover
+  {
+    border-bottom: #1B3B72 3px solid;
+  }
+
+  #btnLRegistro {
     border: none;
     outline: none;
     height: 40px;
+    width: 220px;
     background: #1B3B72;
     color: #FFF;
     font-size: 18px;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
   }
-  
-  .login-caja input[type="submit"]:hover {
+
+  #btnLRegistro:hover {
     cursor: pointer;
     background: #EB7F25;
-    color: #000;
   }
-  
+
   .login-caja a {
     text-decoration: none;
     font-size: 12px;
     line-height: 20px;
     font-weight: bold;
     color: darkgrey;
-    align-items: center;
   }
   
   .login-caja a:hover {
     color: #EB7F25;
+  } 
+
+  #enlaces-a {
+    text-align: center  ;
   }
 
 
