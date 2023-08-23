@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Recuperar contraseña</title>
+    
+    <!-- Icono en la pestaña del navegador -->
+    <link rel="shortcut icon" href="/img/ico/logo_sgirpc_ico.ico" />
+    <!-- Importación de Bootstrap v5-->
+    <link rel="stylesheet" href="/css/bst/bootstrap.min.css">
+    
+    <!-- Importación de las hojas de estilos -->
+    <link rel="stylesheet" href="/css/recuperapw/recuperapw.css">
+
+    <!-- Script de Bootstrap v5 -->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+    <div class="recupera-caja">
+
+      <!-- Logo (img) superior en la caja de texto -->
+      <!-- <img src="/img/logo_2.jpg" class="logo-recupera" alt="Logo"> -->
+      <h1 class="titulo-caja">Recuperar contraseña</h1>
+      
+      <div>
+
+        <!-- Input Correo Electrónico -->
+        <label for="lbl_email">Ingrese su correo electrónico:</label>
+        <input type="email" name="lbl_email" id="email" required>
+        
+        <input type="submit" id="btnRecuperar" type="submit" value="Recuperar" formaction="index.html">
+        
+        <p>o bien:</p>
+        <div id="enlace-is">
+            <a href="login.html">Iniciar sesión</a>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

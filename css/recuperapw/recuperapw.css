@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;   
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    background-color: #F3F3F3;
+  }
+
+  .recupera-caja {
+    width: 320px;
+    height: auto;
+    background: #FCF5F5;
+    color: #6F6F6F;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: -15px 13px 3px 1px rgba(27,59,114,1);
+    -moz-box-shadow: -15px 13px 3px 1px rgba(27,59,114,1);
+    box-shadow: -15px 13px 3px 1px rgba(27,59,114,1);
+    border: black solid 1px;
+  }
+
+  .recupera-caja .titulo-caja {
+    color: #1B3B72;
+  }
+  
+  .recupera-caja .logo-recupera {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+
+  .logo-recupera
+  {
+    position: absolute;
+    z-index: 1;
+    border: #1B3B72 solid 4px;
+  }
+  
+  .recupera-caja p {
+    text-align: center;
+  }
+
+  .recupera-caja h1 {
+    margin-top: 15px;
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .recupera-caja label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .recupera-caja input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .recupera-caja input[type="text"], .recupera-caja input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+    transition: all ease-in 300ms;
+  }
+
+  .recupera-caja input[type="text"]:hover, .recupera-caja input[type="email"]:hover
+  {
+    border-bottom: #1B3B72 3px solid;
+  }
+
+  #btnRecuperar {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 220px;
+    background: #1B3B72;
+    color: #FFF;
+    font-size: 18px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  #btnRecuperar:hover {
+    cursor: pointer;
+    background: #EB7F25;
+  }
+
+  .recupera-caja a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: bold;
+    color: darkgrey;
+  }
+  
+  .recupera-caja a:hover {
+    color: #EB7F25;
+  } 
+
+  #enlace-is {
+    text-align: center  ;
+  }
+
+
+  /* Media queries */
+  /* @media screen and (max-width: 480px) {
+   
+  }  */
