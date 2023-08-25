@@ -31,3 +31,9 @@
     margin: 0 auto;
     
 }
+
+/* Estilos para pantallas con un ancho máximo de 480px */
+@media screen and (max-width: 480px) {
+    
+   
+} 

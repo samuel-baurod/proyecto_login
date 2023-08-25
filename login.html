@@ -11,36 +11,44 @@
     <!-- Importación de Bootstrap v5-->
     <link rel="stylesheet" href="/css/bst/bootstrap.min.css">
     
-    <!-- Importación de las hojas de estilos -->
+    <!-- Importación de las hojas de estilos para el login -->
     <link rel="stylesheet" href="/css/login/login.css">
 
-    <!-- Script de Bootstrap v5 -->
+    <!-- Importación del script de Bootstrap v5 -->
     <script src="/js/bootstrap.bundle.min.js"></script>
   </head>
 
   <body>
+
+    <!-- Estructura de la caja principal del inicio de sesión -->
     <div class="login-caja">
       <img src="/img/logo_2.jpg" class="logo-login" alt="Logo">
       <h1 class="titulo-caja">Inicio de sesión</h1>
       
-      <div>
+      <!-- Div donde se muestra el contenido del login sin el logo  -->
+      <div class="contenido-caja">
         <!-- Input Usuario -->
-        <label for="lbl_usu">Usuario:</label>
-        <input type="text" name="lbl_usu" id="usuario" placeholder="Ingrese usuario" required>
+        <label for="usuario">Usuario:</label>
+        <input type="text" name="usuario" id="usuario" placeholder="Ingrese usuario" required>
         
         <!-- Input Contraseña -->
-        <label for="lbl_password">Contraseña:</label>
-        <input type="password" name="lbl_pass" id="password" placeholder="Ingrese contraseña" required>
-        
-        <input type="submit" id="btnLRegistro" type="submit" value="Iniciar sesión" formaction="index.html">
-        <input type="submit" id="btnLRegistro" type="submit" value="Continuar con Google" formaction="index.html">
-        
-        <!-- <div id="enlaces-a"> -->
-          <a href="recuperapw.html" id="enlaces-a">Recuperar contraseña</a><br>
-          <a href="registro.html" id="enlaces-a">Registrarse</a>
-        <!-- </div> -->
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password" id="password" placeholder="Ingrese contraseña" required>
+
+        <!-- Botones del login -->
+        <div id="btn-login">
+          <a href="index.html" class="btn btn-lg" id="btnLRegistro" role="button">Iniciar sesión</a>
+          <a href="index.html" class="btn btn-lg" id="btnLRegistro" role="button">Continuar con Google</a>
+        </div>
+
+        <!-- Enlaces a otros accesos -->
+        <div id="a-enlaces">
+          <a href="recuperapw.html">Recuperar contraseña</a><br>
+          <a href="registro.html">Registrarse</a>
+        </div>
         
       </div>
     </div>
+
   </body>
 </html>

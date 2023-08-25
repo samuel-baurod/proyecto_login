@@ -128,7 +128,28 @@ body {
   }
 
 
-  /* Media queries */
-  /* @media screen and (max-width: 480px) {
-   
-  }  */
+  /* Media queries para la responsividad */
+
+  /* Tamaño de pantalla cuyo máximo de pantalla sea de 480 pixeles */
+  @media screen and (max-width: 480px) {
+    .login-caja {
+      width: auto;
+      height: auto;
+    }
+  }
+
+  /* Tamaño de pantalla cuyo máximo de pantalla sea de 767 pixeles */
+  @media screen and (max-width: 767px) {
+    .login-caja {
+      width: auto;
+      height: auto;
+    }
+  } 
+
+  /* Tamaño de pantalla cuyo máximo de pantalla sea de 1024 pixeles */
+  @media screen and (max-width: 1024px) {
+    .login-caja {
+      width: auto;
+      height: auto;
+    }
+  } 
