@@ -36,6 +36,17 @@ El pie de página contiene derechos de autor.
 ### Media Queries
 Se han utilizado media queries para aplicar estilos responsivos en diferentes tamaños de pantalla.
 
+Para el proyecto de las fichas forin, se utilzaron tres diferentes estándares de tamaño de pantalla, para asegurar la responsividad de la aplicación en cualquier dispositivo.
+  
+  1. @media screen and (min-width: 1024px) {
+     }
+  
+  2. @media screen and (min-width: 768px) and (max-width: 1023px) {
+     }
+  
+  3. @media screen and (max-width: 767px) {
+     }
+
 ### Escritorio
 Se aplican estilos específicos para pantallas de escritorio (min-width: 1024px).
 
@@ -56,5 +67,36 @@ Se definen estilos para la tabla de datos, incluidos bordes y colores.
 
 ### Footer
 Se definen estilos para el pie de página, como colores y alineación.
+
+
+### Estilos
+Los estilos que se aplican a la aplicación de fichas forin, se describen a continuación:
+
+## Colores
+
+  #EB7F25 -> Código hexadecimal de tonalidad de color naranja.
+  #1B3B72 -> Código hexadecimal de tonalidad de color azul.
+  #8CA2B2 -> Código hexadecimal de tonalidad de color azul celeste.
+  #FFF -> Código hexadecimal de color blanco.
+  #000 -> Código hexadecimal de color negro.
+  red -> Color rojo.
+
+## Tipo de fuente
+
+
+## IDs de index.html
+Para esta página se utilizaron los siguientes identificadores:
+
+<!-- HEADER -->
+#img-navbar -> Se define la imagen que esta en la barra de navegación superior de la aplicación (navbar)
+#img-navbar-rsp -> Se define la imagen que esta en la barra de navegación superior de la aplicación (navbar) que aplica cuando la pantalla del dispositivo sea menor de 768px
+
+<!-- ASIDE -->
+#img-barralateral -> 
+
+
+
+
+
 
 Esta documentación resalta aspectos clave del código HTML y CSS y proporciona explicaciones sobre las decisiones de diseño tomadas. Asegúrate de expandir esta documentación con más detalles y ejemplos si es necesario para que otros diseñadores puedan comprender y colaborar eficazmente en el proyecto.
