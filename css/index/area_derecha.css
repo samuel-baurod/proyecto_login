@@ -7,6 +7,10 @@
     align-items: center;
   }
 
+  .area-derecha-rs {
+    display: none;
+  }
+
 #data-load
 {
     position: relative;
@@ -35,5 +39,41 @@
 /* Estilos para pantallas con un ancho máximo de 480px */
 @media screen and (max-width: 480px) {
     
+    .area-derecha {
+        display: none;
+      }
+
+      .area-derecha-rs {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
    
 } 
+
+
+/* Tamaño de pantalla cuyo máximo de pantalla sea de 767 pixeles */
+@media screen and (max-width: 767px) {
+    
+    .area-derecha {
+        position: relative;
+        width: 80%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+  } 
+
+  /* Tamaño de pantalla cuyo máximo de pantalla sea de 1024 pixeles */
+  @media screen and (max-width: 1024px) {
+    .login-caja {
+      width: auto;
+      height: auto;
+    }
+  }
