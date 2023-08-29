@@ -1,79 +1,179 @@
-.area-derecha {
-    position: relative;
-    width: 88%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Esta hoja de estilos incluye los estilos de la section del area derecha que 
+contiene la tabla */
+
+/* Pantallas con resolución de tamaño de pantala para escritorio */
+/* Media queries */
+@media screen and (min-width: 1024px) {
+
+  .contenido-main {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 100%;
+      background: #FFF;
   }
 
-  .area-derecha-rs {
-    display: none;
+  .area-derecha {
+      position: relative;
+      width: 88%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
   }
 
-#data-load
-{
-    position: relative;
-    width: 90% !important;
-    top: -50px;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid black;
-    -webkit-box-shadow: -15px 10px 5px -4px rgba(0,0,0,0.75);
-    -moz-box-shadow: -15px 10px 5px -4px rgba(0,0,0,0.75);
-    box-shadow: -15px 10px 5px -4px rgba(0,0,0,0.75)
-}
-
-.table-hover {
-    cursor: pointer;
-}
-
-.table {
-    height: 90%;
-    width: 90%;
-    position: relative; 
-    margin: 0 auto;
-    
-}
-
-/* Estilos para pantallas con un ancho máximo de 480px */
-@media screen and (max-width: 480px) {
-    
-    .area-derecha {
-        display: none;
-      }
-
-      .area-derecha-rs {
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-      }
-   
-} 
-
-
-/* Tamaño de pantalla cuyo máximo de pantalla sea de 767 pixeles */
-@media screen and (max-width: 767px) {
-    
-    .area-derecha {
-        position: relative;
-        width: 80%;
-        height: 10vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-  } 
-
-  /* Tamaño de pantalla cuyo máximo de pantalla sea de 1024 pixeles */
-  @media screen and (max-width: 1024px) {
-    .login-caja {
-      width: auto;
-      height: auto;
-    }
+  #btn-ayuda {
+      display: flex;
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 15px;
+      z-index: 1;
+      font-size: 20px;
   }
+
+  /* Id de la carga de datos de la tabla */
+  #data-load
+  {
+      overflow: auto;
+      position: relative;
+      width: 90% !important;
+      max-width: auto;
+      max-height: calc(100vh - 120px); 
+      top: auto;
+      padding: 10px;
+      margin: 10px auto;
+      border: 1px solid black;
+      -webkit-box-shadow: -15px 10px 5px -4px rgba(0,0,0,0.75);
+      -moz-box-shadow: -15px 10px 5px -4px rgba(0,0,0,0.75);
+      box-shadow: -15px 10px 5px -4px rgba(0,0,0,0.75);
+      box-sizing: border-box;
+  }
+
+  .table-hover {
+      cursor: pointer;
+  }
+
+}
+
+/* Responsividad para una tablet */
+/* Media queries */
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+
+  .contenido-main {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 100%;
+      background: #FFF;
+  }
+
+  .area-derecha {
+      position: relative;
+      width: 90%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+  }
+
+  #btn-ayuda {
+      display: flex;
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 15px;
+      z-index: 1;
+      font-size: 15px;
+  }
+
+  /* Id de la carga de datos de la tabla */
+  #data-load
+  {
+      position: relative;
+      width: 90% !important;
+      max-height: calc(100vh - 120px); 
+      top: auto;
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid black;
+      -webkit-box-shadow: -15px 10px 5px -4px rgba(0,0,0,0.75);
+      -moz-box-shadow: -15px 10px 5px -4px rgba(0,0,0,0.75);
+      box-shadow: -15px 10px 5px -4px rgba(0,0,0,0.75)
+  }
+
+  .table-hover {
+      cursor: pointer;
+  }
+
+}
+
+
+/* Responsividad para un dispositivo móvil*/
+/* Media queries */
+@media screen and (max-width: 767px)  {
+
+  .contenido-main {
+      display: flex;
+      flex-wrap: wrap;   
+      background: #FFF;
+  }
+
+  .area-derecha {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 60px;
+      padding-top: 60px;
+      justify-content: center;
+      align-items: center;
+  }
+
+  #btn-ayuda {
+      
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 10px;
+      z-index: 1;
+      font-size: 20px;
+  }
+
+  /* Id de la carga de datos de la tabla */
+  #data-load
+  {
+      overflow: auto;
+      position: relative;
+      width: 90% !important;
+      max-width: auto;
+      margin-top: 10px;
+      box-sizing: border-box;
+      max-height: calc(100vh - 120px);
+      height: 90%;
+      top: 0 auto;
+      padding: 0 auto;
+      margin: 0 auto;
+      border: 1px solid black;
+      -webkit-box-shadow: -15px 10px 5px -4px rgba(0,0,0,0.75);
+      -moz-box-shadow: -15px 10px 5px -4px rgba(0,0,0,0.75);
+      box-shadow: -15px 10px 5px -4px rgba(0,0,0,0.75)
+  }
+
+  .info-table {
+      padding: 10px;
+  }
+
+  .table-responsive {
+      overflow-x: auto;
+  }
+
+  .table-hover {
+      cursor: pointer;
+  }
+
+}
+
+
+
