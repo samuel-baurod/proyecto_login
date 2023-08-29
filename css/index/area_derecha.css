@@ -23,6 +23,16 @@ contiene la tabla */
       align-items: flex-end;
   }
 
+  #btn-menu {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 15px;
+    z-index: 1;
+    font-size: 20px;
+}
+
   #btn-ayuda {
       display: flex;
       position: absolute;
