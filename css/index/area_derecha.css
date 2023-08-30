@@ -20,27 +20,26 @@ contiene la tabla */
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: flex-end;
+      align-items: center;
   }
 
-  #btn-menu {
-    display: flex;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 15px;
-    z-index: 1;
-    font-size: 20px;
-}
+  .opciones-menu .contenedor-menu {
+    display: none;
+  }
 
-  #btn-ayuda {
+    #btn-menu {
+        display: none;
+    }
+
+  
+    #btn-ayuda {
       display: flex;
       position: absolute;
       top: 0;
       right: 0;
-      margin: 15px;
+      margin: 0;
       z-index: 1;
-      font-size: 20px;
+      font-size: 20px;     
   }
 
   /* Id de la carga de datos de la tabla */
@@ -52,6 +51,7 @@ contiene la tabla */
       max-width: auto;
       max-height: calc(100vh - 120px); 
       top: auto;
+      bottom: 5%;
       padding: 10px;
       margin: 10px auto;
       border: 1px solid black;
@@ -65,7 +65,20 @@ contiene la tabla */
       cursor: pointer;
   }
 
+  .botones-ad {
+    position: relative;
+    width: 90% !important;
+    max-width: auto;
+    max-height: calc(100vh - 120px);
+    top: -10%;
+    bottom: 5%;
+    padding: 10px;
+    margin: 10px auto;
+  }
 }
+
+
+    
 
 /* Responsividad para una tablet */
 /* Media queries */
@@ -89,15 +102,35 @@ contiene la tabla */
       align-items: flex-end;
   }
 
+  .opciones-menu .contenedor-menu {
+    display: none;
+  }
+
   #btn-ayuda {
       display: flex;
       position: absolute;
+      padding: 10px;
+      margin: 10px;
+      
       top: 0;
       right: 0;
       margin: 15px;
       z-index: 1;
-      font-size: 15px;
+      font-size: 20px;
   }
+
+  #btn-menu {
+    display: flex;
+    position: absolute;
+    padding: 10px;
+    margin: 10px;
+
+    top: 0;
+    left: 0;
+    margin: 15px;
+    z-index: 1;
+    font-size: 20px;
+}
 
   /* Id de la carga de datos de la tabla */
   #data-load
@@ -118,6 +151,16 @@ contiene la tabla */
       cursor: pointer;
   }
 
+  .botones-ad {
+    position: relative;
+    width: 90% !important;
+    max-width: auto;
+    max-height: calc(100vh - 120px);
+    top: -10%;
+    bottom: 5%;
+    padding: 10px;
+    margin: 10px auto;
+  }
 }
 
 
@@ -141,15 +184,30 @@ contiene la tabla */
       align-items: center;
   }
 
+  .opciones-menu {
+        display: block;
+        background-color: red;
+        
+  }
+
   #btn-ayuda {
-      
       position: absolute;
       top: 0;
       right: 0;
-      margin: 10px;
+      margin: 0;
       z-index: 1;
       font-size: 20px;
   }
+
+  #btn-menu {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    z-index: 1;
+    font-size: 20px;
+}
 
   /* Id de la carga de datos de la tabla */
   #data-load
@@ -171,6 +229,11 @@ contiene la tabla */
       box-shadow: -15px 10px 5px -4px rgba(0,0,0,0.75)
   }
 
+  /* Se reduce el tamaño del texto dentro de la tabla, asi como de los elementos que la componen */
+  #dataload > thead, tbody, div {
+    font-size: 12px;
+  }
+
   .info-table {
       padding: 10px;
   }
@@ -181,6 +244,17 @@ contiene la tabla */
 
   .table-hover {
       cursor: pointer;
+  }
+
+  .botones-ad {
+    position: relative;
+    width: 90% !important;
+    max-width: auto;
+    max-height: calc(100vh - 120px);
+    top: -10%;
+    bottom: 5%;
+    padding: 10px;
+    margin: 10px auto;
   }
 
 }
