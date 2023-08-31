@@ -1,23 +1,7 @@
-$(document).ready(main);
+function menuResponsivo() {
 
-var contador = 1;
-
-function main(){
-	$('.opciones-menu').click(function(){
-		// $('nav').toggle(); 
-
-		if(contador == 1){
-			$('div').animate({
-				left: '0'
-			});
-			contador = 0;
-		} else {
-			contador = 1;
-			$('div').animate({
-				left: '-100%'
-			});
-		}
-
-	});
-
-};
+	// Cambiar el color de fondo de la sección a verde
+	// areaDerecha.style.backgroundColor = 'brown';
+	document.getElementById("areaDerecha").style.zIndex = "1";
+	
+  }

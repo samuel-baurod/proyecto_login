@@ -78,7 +78,7 @@
         </aside>
         
         <!-- Inicia espacio en blanco donde esta la tabla -->
-        <section class="area-derecha">
+        <section id="areaDerecha" class="area-derecha">
 
           <!-- Opciones del menu cuando se visualiza en celulares -->      
           <div class="opciones-menu">
@@ -87,7 +87,7 @@
             
           <!-- Div que contiene los botones de menu y de ayuda (visible en celulares) -->
           <div class="botones-ad">
-            <button id="btn-menu" class="btn btn-outline-primary" title="Menu">
+            <button id="btn-menu" class="btn btn-outline-primary" title="Menu" onclick="menuResponsivo()">
               <i class="bi bi-list"></i>
             </button>
 
@@ -108,7 +108,7 @@
               </div>
 
               <div class="filter-table">
-                <h6><center>Aqui van a ir los filtros de la tabla</center></h6>
+                <h5><center>Aqui van a ir los filtros de la tabla</center></h5>
               </div>
 
               <div class="container table-responsive">
@@ -176,9 +176,6 @@
                 </div>
               </div>
             </div>
-
-         
-
         </section>
 
       <!-- Inicia la estructura del pie de página -->
@@ -188,6 +185,19 @@
 
       </div>
     </main>
+
+
+
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Contenido del modal aquí</p>
+      </div>
+    </div>
   
+
+
+
   </body>
 </html>

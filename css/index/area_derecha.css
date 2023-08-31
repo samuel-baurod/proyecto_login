@@ -185,10 +185,10 @@ contiene la tabla */
   }
 
   .opciones-menu {
-        display: block;
-        background-color: red;
-        
+      display: block;
+      background-color: red;
   }
+
 
   #btn-ayuda {
       position: absolute;
@@ -207,11 +207,11 @@ contiene la tabla */
     margin: 0px;
     z-index: 1;
     font-size: 20px;
+
 }
 
   /* Id de la carga de datos de la tabla */
-  #data-load
-  {
+  #data-load {
       overflow: auto;
       position: relative;
       width: 90% !important;
