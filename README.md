@@ -70,15 +70,15 @@ Se han utilizado media queries para aplicar estilos responsivos en diferentes ta
 
 Para el proyecto de las fichas forin, se utilzaron tres diferentes estándares de tamaño de pantalla, para asegurar la responsividad de la aplicación en cualquier dispositivo.
   
-  1. > @media screen and (min-width: 1024px) {
-     >   ... /* Código CSS */ ...
+  1. > @media screen and (min-width: 1024px) { <br>
+        ... /* Código CSS */ ... <br>
       }
   
-  2. @media screen and (min-width: 768px) and (max-width: 1023px) {
+  2. > @media screen and (min-width: 768px) and (max-width: 1023px) { <br>
        ... /* Código CSS */ ...
      }
   
-  3. @media screen and (max-width: 767px) {
+  3. > @media screen and (max-width: 767px) {
        ... /* Código CSS */ ...
      }
 
