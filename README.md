@@ -2,8 +2,12 @@
 
 Este proyecto consiste en la elaboración de una plataforma web que consiste en la visualización, edición, insertado y eliminación de fichas forin.
 
+## USO
+1. Clonar el repositorio: https://github.com/samuel-baurod/proyecto_login.git
+2. Abrir el archivo: index.html en el navegador web.
+3. Consultar la documentación para obtener más detalles.
 
-# Documentación del Código HTML y CSS
+# Documentación del Código
 
 ## HTML
 
