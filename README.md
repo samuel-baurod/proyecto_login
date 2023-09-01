@@ -1,11 +1,25 @@
 # PROYECTO: FICHAS FORIN
 
+Este proyecto consiste en la elaboración de una plataforma web que consiste en la visualización, edición, insertado y eliminación de fichas forin.
+
+
 # Documentación del Código HTML y CSS
 
 ## HTML
 
 ### Estructura Básica
 El archivo HTML sigue una estructura estándar con las etiquetas `<html>`, `<head>` y `<body>`.
+
+#### <header>
+
+
+
+
+
+
+
+
+
 
 ### Metadatos
 Se han incluido metadatos importantes, como el conjunto de caracteres y la vista inicial.
