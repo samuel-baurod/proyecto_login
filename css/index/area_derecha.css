@@ -376,7 +376,7 @@ contiene la tabla */
 }
 
 .opcion-barralateral-csrs {
-  position: fixed;
+  position: relative;
   cursor: pointer;
   border-bottom: .5px solid red;
   text-align: left;
