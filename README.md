@@ -10,16 +10,6 @@ Este proyecto consiste en la elaboración de una plataforma web que consiste en 
 ### Estructura Básica
 El archivo HTML sigue una estructura estándar con las etiquetas `<html>`, `<head>` y `<body>`.
 
-#### <header>
-
-
-
-
-
-
-
-
-
 
 ### Metadatos
 Se han incluido metadatos importantes, como el conjunto de caracteres y la vista inicial.
@@ -32,6 +22,37 @@ Se utiliza un icono personalizado para la pestaña del navegador.
 
 ### Importación de Bootstrap y Estilos
 Se importa Bootstrap v5 para estilos consistentes y legibilidad.
+
+#### <header>
+
+Dentro de la etiqueta header, se pueden apreciar los siguientes identificadores (ID)
+
+- **navbar-principal** : Es un elemento div con este nombre de ID que representa el contenido general de la barra de navegación (navbar)
+
+
+
+### <main>
+
+Dentro de la etiqueta main, se pueden encontrar los siguientes identificadores (ID)
+
+
+
+### <footer>
+
+Dentro de la etiqueta footer, se encuentran los siguientes IDs
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Navbar
 Se ha creado un encabezado con un navbar que contiene el logo y un ícono de hamburguesa.
