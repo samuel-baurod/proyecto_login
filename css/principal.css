@@ -53,6 +53,9 @@
         height: auto;
         padding: 15px 10px 15px 10px;
         color: #FFF
+
+
+
     }
 
     /* Se reduce el tamaño de la fuente dentro de la barra lateral, asi como de los elementos que componen la barra lateral */
@@ -140,6 +143,10 @@
         font-size: small;
         margin: auto;
     }
+
+    #myModal {
+        display: none;
+      }
 } 
 
 
@@ -270,6 +277,8 @@
         margin: auto;
         padding: 5px;
         color: #fff;
+        bottom: 0;
+        left: 0;
     }
 
     footer>p {
@@ -277,6 +286,8 @@
         font-size: small;
         margin: auto;
     }
+
+
 } 
 
 
@@ -408,7 +419,7 @@
         color: #fff;
     }
 
-    footer>p {
+    footer > p {
         text-align: center;
         font-size: small;
         margin: auto;
