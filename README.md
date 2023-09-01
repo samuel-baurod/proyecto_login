@@ -23,25 +23,22 @@ Se utiliza un icono personalizado para la pestaña del navegador.
 ### Importación de Bootstrap y Estilos
 Se importa Bootstrap v5 para estilos consistentes y legibilidad.
 
-  ### <header>
+### <header>
   
-  Dentro de la etiqueta header, se pueden apreciar los siguientes identificadores (ID)
+Dentro de la etiqueta header, se pueden apreciar los siguientes identificadores (ID)
   
-  - **navbar-principal** : Es un elemento div con este nombre de ID que representa el contenido general de la barra de navegación (navbar)
-  
-  
-  
-  ### <main>
-  
-  Dentro de la etiqueta main, se pueden encontrar los siguientes identificadores (ID)
+- **navbar-principal** : Es un elemento div con este nombre de ID que representa el contenido general de la barra de navegación (navbar)
   
   
+### <main>
   
-  ### <footer>
+Dentro de la etiqueta main, se pueden encontrar los siguientes identificadores (ID)
   
-  Dentro de la etiqueta footer, se encuentran los siguientes IDs
-
-
+  
+  
+### <footer>
+  
+Dentro de la etiqueta footer, se encuentran los siguientes IDs
 
 
 
@@ -73,13 +70,16 @@ Se han utilizado media queries para aplicar estilos responsivos en diferentes ta
 
 Para el proyecto de las fichas forin, se utilzaron tres diferentes estándares de tamaño de pantalla, para asegurar la responsividad de la aplicación en cualquier dispositivo.
   
-  1. @media screen and (min-width: 1024px) {
-     }
+  1. > @media screen and (min-width: 1024px) {
+       > ... /* Código CSS */ ...
+     > }
   
   2. @media screen and (min-width: 768px) and (max-width: 1023px) {
+       ... /* Código CSS */ ...
      }
   
   3. @media screen and (max-width: 767px) {
+       ... /* Código CSS */ ...
      }
 
 ### Escritorio
